@@ -37,3 +37,66 @@ button {
   padding: 8px 24px;
   margin: 0 auto;
 }
+
+.some-div {
+  border: 3px solid aquamarine;
+  margin: 10px;
+  }
+
+.some-div-begin {
+  display: block;
+  background-color: aquamarine;
+  width: 50px;
+  margin-top: 0;
+}
+
+.some-div-end {
+  display: block;
+  background-color: aquamarine;
+  text-align: right;
+  width:50px;
+  margin-left: 1000px;
+}
+
+.parag {
+  margin: 8px;
+}
+
+.some-span-begin {
+  background-color: aquamarine;
+}
+
+.relative1 {
+  position: relative;
+}
+.relative2 {
+  position: relative;
+  top: -40px;
+  left: 20px;
+  background-color: white;
+  width: 500px;
+  padding: 6px;;
+}
+
+.flex-container {
+  display: flex; 
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 100px;
+  flex: 1; 
+}
+
+.min-content {
+  width: -moz-min-content;
+  width: min-content;
+  border: 2px dotted rgb(96, 139, 168);
+}
+.max-content {
+  width: -moz-max-content;
+  width: max-content;
+  border: 2px dotted rgb(96, 139, 168);
+}
